@@ -38,7 +38,7 @@ export const ThirdIntroScreen = ({ navigation }) => (
     <View style={styles.contentContainer}>
       <Text style={styles.introHeader}>Grocery Shop</Text>
       <Text style={styles.introText}>The easiest way to buy your grocery shopping</Text>
-      <IntroButton title="Get Started" route="FirstIntro" navigation={navigation} />
+      <IntroButton title="Get Started" route="MainTab" navigation={navigation} />
     </View>
   </SafeAreaView>
   </LinearGradient>

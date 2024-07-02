@@ -1,22 +1,13 @@
-import {SafeAreaView} from 'react-native'
-import React from 'react'
-import {NavigationContainer} from '@react-navigation/native';
+import {SafeAreaView} from 'react-native';
+import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { FirstIntroScreen, SecondIntroScreen, ThirdIntroScreen } from './screens/IntroScreens';
+import Navigator from './components/Navigator';
 
 const App = () => {
-  const Stack = createNativeStackNavigator();
-
   return (
-    <SafeAreaView style={{flex:1}}>
-        <NavigationContainer>
-          <Stack.Navigator initialRouteName='FirstIntro' screenOptions={{headerShown: false}}>
-            <Stack.Screen name="FirstIntro" component={FirstIntroScreen} />
-            <Stack.Screen name="SecondIntro" component={SecondIntroScreen}/>
-            <Stack.Screen name="ThirdIntro" component={ThirdIntroScreen}/>
-          </Stack.Navigator>
-        </NavigationContainer>
+    <SafeAreaView style={{flex: 1}}>
+      <Navigator />
     </SafeAreaView>
-  )
-}
+  );
+};
 export default App;

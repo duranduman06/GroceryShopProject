@@ -51,9 +51,7 @@ const styles = StyleSheet.create({
   image: {
     width: PhoneWidth,
     height: PhoneHeight * 0.5,
-    opacity: 1,
-    //backgroundColor: 'transparent',
-    // mixBlendMode: 'multiply',
+    backgroundColor: 'transparent',
     },
   previewContainer: {
     flex: 1,

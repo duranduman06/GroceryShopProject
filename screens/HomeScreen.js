@@ -7,28 +7,44 @@ import CategoryBar from '../components/CategoryBar';
 
 const products = {
   '1': [ //Fruits
-      { id: '1', title: 'Passion Fruit', price: '$2.99', unit:'kg', image: require('../assets/grocery/fruit-1.png') },
-      { id: '2', title: 'Pear', price: '$1.99', unit:'kg', image: require('../assets/grocery/fruit-2.png')},
-      { id: '3', title: 'Watermelon', price: '$3.49', unit:'kg', image: require('../assets/grocery/fruit-3.png') },
-      { id: '4', title: 'Strawberry', price: '$3.49', unit:'kg', image: require('../assets/grocery/fruit-4.png') },
-      { id: '5', title: 'Melon', price: '$3.49', unit:'kg',image: require('../assets/grocery/fruit-5.png') },
+      { id: '1', title: 'Passion Fruit', price: '$2.99', unit:'kg',star:'4',image: require('../assets/grocery/fruit-1.png')
+        ,description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'},
+      { id: '2', title: 'Pear', price: '$1.99', unit:'kg',star:'5', image: require('../assets/grocery/fruit-2.png')
+        ,description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'},
+      { id: '3', title: 'Watermelon', price: '$3.49', unit:'kg',star:'4', image: require('../assets/grocery/fruit-3.png')
+        ,description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'},
+      { id: '4', title: 'Strawberry', price: '$3.49', unit:'kg',star:'4', image: require('../assets/grocery/fruit-4.png')
+        ,description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'},
+      { id: '5', title: 'Melon', price: '$3.49', unit:'kg',star:'5',image: require('../assets/grocery/fruit-5.png')
+        ,description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'},
   ],
   '2': [ //Vegetables
-      { id: '6', title: 'Tomato', price: '$0.99', unit:'kg', image: require('../assets/grocery/veggie-1.png')},
-      { id: '7', title: 'Cucumber', price: '$1.49',  unit:'kg',image: require('../assets/grocery/veggie-2.png') },
-      { id: '8', title: 'Onion', price: '$4.99', unit:'kg', image: require('../assets/grocery/veggie-3.png') },
-      { id: '9', title: 'Potato', price: '$4.99',  unit:'kg',image: require('../assets/grocery/veggie-4.png') },
+      { id: '6', title: 'Tomato', price: '$0.99', unit:'kg',star:'5', image: require('../assets/grocery/veggie-1.png')
+        ,description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'},
+      { id: '7', title: 'Cucumber', price: '$1.49',  unit:'kg',star:'4', image: require('../assets/grocery/veggie-2.png')
+        ,description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'},
+      { id: '8', title: 'Onion', price: '$4.99', unit:'kg',star:'4', image: require('../assets/grocery/veggie-3.png')
+        ,description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'},
+      { id: '9', title: 'Potato', price: '$4.99',  unit:'kg',star:'3',image: require('../assets/grocery/veggie-4.png')
+        ,description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'},
   ],
   '3': [//Dried Fruits
-      { id: '10', title: 'Dried Goji Berry', price: '$2.29', unit:'kg', image: require('../assets/grocery/dried-1.png') },
-      { id: '11', title: 'Dried Apricot', price: '$1.79', unit:'kg', image: require('../assets/grocery/dried-2.png') },
-      { id: '12', title: 'Dried Rhubarb', price: '$1.79', unit:'kg', image: require('../assets/grocery/dried-3.png') },
-      { id: '13', title: 'Dried Seaweed', price: '$1.79', unit:'kg', image: require('../assets/grocery/dried-4.png') },
+      { id: '10', title: 'Dried Goji Berry', price: '$2.29', unit:'kg',star:'3', image: require('../assets/grocery/dried-1.png')
+        ,description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'},
+      { id: '11', title: 'Dried Apricot', price: '$1.79', unit:'kg',star:'4', image: require('../assets/grocery/dried-2.png')
+        ,description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'},
+      { id: '12', title: 'Dried Rhubarb', price: '$1.79', unit:'kg',star:'4', image: require('../assets/grocery/dried-3.png')
+        ,description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'},
+      { id: '13', title: 'Dried Seaweed', price: '$1.79', unit:'kg',star:'5', image: require('../assets/grocery/dried-4.png')
+        ,description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'},
   ],
   '4': [//Greens
-      { id: '14', title: 'Lettuce', price: '$1.49', unit:'kg', image: require('../assets/grocery/green-1.png') },
-      { id: '15', title: 'Cucumber', price: '$1.29', unit:'kg', image: require('../assets/grocery/green-2.png') },
-      { id: '16', title: 'Broccoli', price: '$2.99',  unit:'kg',image: require('../assets/grocery/green-3.png') },
+      { id: '14', title: 'Lettuce', price: '$1.49', unit:'kg', star:'4', image: require('../assets/grocery/green-1.png')
+        ,description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'},
+      { id: '15', title: 'Cucumber', price: '$1.29', unit:'kg', star:'4', image: require('../assets/grocery/green-2.png')
+        ,description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'},
+      { id: '16', title: 'Broccoli', price: '$2.99',  unit:'kg', star:'4', image: require('../assets/grocery/green-3.png')
+        ,description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'},
   ],
 };
 
@@ -40,7 +56,7 @@ const HomeScreen = () => {
   };
    const renderProduct = ({item})=> {
     return(
-      <Product item={item}/>
+      <Product item={item} data={products[selectedCategory]}/>
     );
    }
   return (
@@ -109,4 +125,3 @@ const styles = StyleSheet.create({
     overflow:'hidden',
   },
 });
-

@@ -5,6 +5,8 @@ This project aims to develop a mobile application for a grocery shop, enabling c
 
 The application features a user-friendly design, showcasing food items categorized for easy navigation. It provides detailed information about each food item and also suggests related foods based on the selected item.
 
+
+
 <div style="display: flex; flex-wrap: nowrap;">
   <img src="https://github.com/user-attachments/assets/a1a6450c-090f-4dd2-bee3-d04812fdd7af" alt="Screenshot 1" style="width: 20%; margin-right: 20px;">
   <img src="https://github.com/user-attachments/assets/72d0d4de-1804-486f-947d-a0fe3ae35902" alt="Screenshot 2" style="width: 20%; margin-right: 20px;">
